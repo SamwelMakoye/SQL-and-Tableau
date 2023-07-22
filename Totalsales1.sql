@@ -5,6 +5,7 @@ inner join pizzas p
 on p.pizza_id = o.pizza_id
 group by o.pizza_id,p.price
 order by total_sales desc
+limit 10;
 
 
 
